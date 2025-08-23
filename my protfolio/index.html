@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ranjith Kumar — B.Tech IT</title>
+
+  <!-- Google font (works without extra setup) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#home">Ranjith Kumar</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav id="main-nav" class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>I’m <span class="name">RANJITH KUMAR</span></h1>
+          <p class="lead">B.Tech — Information Technology</p>
+          <p>I build web apps and learn embedded systems. I love clean UI and practical projects that solve real problems.</p>
+
+          <div class="cta-row">
+            <a class="btn" href="resume.pdf" download>Download Resume</a>
+            <a class="btn outline" href="#contact">Contact</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/983812345678" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/ranjith-rs-99a937305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.behance.net/ranjithkumar297" target="_blank" rel="noopener">behance</a>
+            <a href="https://www.instagram.com/mr._black_heart_rs?igsh=YTRpYmRmOTRmdjk0" target="_blank">Instagram</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="photo-wrap" aria-hidden="false">
+            <img src="image\ranjith.jpeg" alt="Photo of Ranjith Kumar">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>I am Ranjith Kumar, pursuing B.Tech in Information Technology. I am passionate about web development, programming, and exploring new technologies. I have knowledge of HTML, CSS, JavaScript, Python, and database systems, and I enjoy applying these skills to build creative and practical projects. Along with academics, I am interested in areas like IoT and automation, which inspire me to connect classroom learning with real-world applications. My goal is to become a skilled full-stack developer and contribute to innovative solutions in the tech industry. I strongly believe in continuous learning, teamwork, and problem-solving as the keys to growth and success.</p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-title">HTML &amp; CSS</div>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-title">JavaScript</div>
+            <div class="bar"><span style="width:80%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-title">Python / Flask</div>
+            <div class="bar"><span style="width:70%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Project — Web App</h3>
+            <p>Short description: what it does and tech used.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener">View</a>
+          </article>
+
+          <article class="project">
+            <h3>Project — ceritificate</h3>
+            <p>Short description: generative AI.</p>
+            <a class="" href="image/certificate.jpeg" target="image\certificate.jpeg" rel="noopener">View</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Contact Section -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2> Contact Me</h2>
+    
+    <div class="contact-info">
+      <p><strong>Phone:</strong> +91 9345611492</p>
+      <p><strong>Email:</strong> ranjithkumarait@gmail.com</p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; <span id="year"></span> Ranjith Kumar</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
